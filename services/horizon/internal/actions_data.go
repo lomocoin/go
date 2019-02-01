@@ -1,10 +1,10 @@
 package horizon
 
 import (
-	"github.com/stellar/go/services/horizon/internal/actions"
-	"github.com/stellar/go/services/horizon/internal/db2/core"
-	"github.com/stellar/go/services/horizon/internal/render/sse"
-	"github.com/stellar/go/support/render/hal"
+	"github.com/lomocoin/stellar-go/services/horizon/internal/actions"
+	"github.com/lomocoin/stellar-go/services/horizon/internal/db2/core"
+	"github.com/lomocoin/stellar-go/services/horizon/internal/render/sse"
+	"github.com/lomocoin/stellar-go/support/render/hal"
 )
 
 // DataShowAction renders a account summary found by its address.

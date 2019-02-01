@@ -1,12 +1,12 @@
 package server
 
 import (
-	"github.com/stellar/go/services/bifrost/bitcoin"
-	"github.com/stellar/go/services/bifrost/database"
-	"github.com/stellar/go/services/bifrost/queue"
-	"github.com/stellar/go/services/bifrost/sse"
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/support/log"
+	"github.com/lomocoin/stellar-go/services/bifrost/bitcoin"
+	"github.com/lomocoin/stellar-go/services/bifrost/database"
+	"github.com/lomocoin/stellar-go/services/bifrost/queue"
+	"github.com/lomocoin/stellar-go/services/bifrost/sse"
+	"github.com/lomocoin/stellar-go/support/errors"
+	"github.com/lomocoin/stellar-go/support/log"
 )
 
 // onNewBitcoinTransaction checks if transaction is valid and adds it to

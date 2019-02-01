@@ -1,8 +1,8 @@
 package resourceadapter
 
 import (
-	"github.com/stellar/go/services/horizon/internal/db2/core"
-	. "github.com/stellar/go/protocols/horizon"
+	"github.com/lomocoin/stellar-go/services/horizon/internal/db2/core"
+	. "github.com/lomocoin/stellar-go/protocols/horizon"
 )
 
 func PopulateAccountFlags(dest *AccountFlags, row core.Account) {

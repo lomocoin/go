@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/support/http/httptest"
+	"github.com/lomocoin/stellar-go/support/errors"
+	"github.com/lomocoin/stellar-go/support/http/httptest"
 	"github.com/stretchr/testify/assert"
 )
 

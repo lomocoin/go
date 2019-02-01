@@ -1,11 +1,11 @@
 package bridge
 
 import (
-	"github.com/stellar/go/amount"
-	b "github.com/stellar/go/build"
-	shared "github.com/stellar/go/services/internal/bridge-compliance-shared"
-	"github.com/stellar/go/services/internal/bridge-compliance-shared/http/helpers"
-	"github.com/stellar/go/services/internal/bridge-compliance-shared/protocols"
+	"github.com/lomocoin/stellar-go/amount"
+	b "github.com/lomocoin/stellar-go/build"
+	shared "github.com/lomocoin/stellar-go/services/internal/bridge-compliance-shared"
+	"github.com/lomocoin/stellar-go/services/internal/bridge-compliance-shared/http/helpers"
+	"github.com/lomocoin/stellar-go/services/internal/bridge-compliance-shared/protocols"
 )
 
 // PaymentOperationBody represents payment operation

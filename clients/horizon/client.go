@@ -13,8 +13,8 @@ import (
 	"strings"
 
 	"github.com/manucorporat/sse"
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/xdr"
+	"github.com/lomocoin/stellar-go/support/errors"
+	"github.com/lomocoin/stellar-go/xdr"
 )
 
 // HomeDomainForAccount returns the home domain for the provided strkey-encoded

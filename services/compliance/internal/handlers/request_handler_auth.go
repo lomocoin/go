@@ -14,13 +14,13 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	baseAmount "github.com/stellar/go/amount"
-	"github.com/stellar/go/protocols/compliance"
-	"github.com/stellar/go/services/compliance/internal/db"
-	shared "github.com/stellar/go/services/internal/bridge-compliance-shared"
-	httpHelpers "github.com/stellar/go/services/internal/bridge-compliance-shared/http/helpers"
-	callback "github.com/stellar/go/services/internal/bridge-compliance-shared/protocols/compliance"
-	"github.com/stellar/go/xdr"
+	baseAmount "github.com/lomocoin/stellar-go/amount"
+	"github.com/lomocoin/stellar-go/protocols/compliance"
+	"github.com/lomocoin/stellar-go/services/compliance/internal/db"
+	shared "github.com/lomocoin/stellar-go/services/internal/bridge-compliance-shared"
+	httpHelpers "github.com/lomocoin/stellar-go/services/internal/bridge-compliance-shared/http/helpers"
+	callback "github.com/lomocoin/stellar-go/services/internal/bridge-compliance-shared/protocols/compliance"
+	"github.com/lomocoin/stellar-go/xdr"
 )
 
 // HandlerAuth implements authorize endpoint

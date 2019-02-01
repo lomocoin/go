@@ -4,15 +4,15 @@ import (
 	"strconv"
 	gTime "time"
 
-	"github.com/stellar/go/protocols/horizon"
-	"github.com/stellar/go/services/horizon/internal/db2"
-	"github.com/stellar/go/services/horizon/internal/db2/history"
-	"github.com/stellar/go/services/horizon/internal/render/sse"
-	"github.com/stellar/go/services/horizon/internal/resourceadapter"
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/support/render/hal"
-	"github.com/stellar/go/support/time"
-	"github.com/stellar/go/xdr"
+	"github.com/lomocoin/stellar-go/protocols/horizon"
+	"github.com/lomocoin/stellar-go/services/horizon/internal/db2"
+	"github.com/lomocoin/stellar-go/services/horizon/internal/db2/history"
+	"github.com/lomocoin/stellar-go/services/horizon/internal/render/sse"
+	"github.com/lomocoin/stellar-go/services/horizon/internal/resourceadapter"
+	"github.com/lomocoin/stellar-go/support/errors"
+	"github.com/lomocoin/stellar-go/support/render/hal"
+	"github.com/lomocoin/stellar-go/support/time"
+	"github.com/lomocoin/stellar-go/xdr"
 )
 
 type TradeIndexAction struct {

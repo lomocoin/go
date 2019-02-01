@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/stellar/go/protocols/horizon"
+	"github.com/lomocoin/stellar-go/protocols/horizon"
 )
 
 func TestAccountActions_Show(t *testing.T) {

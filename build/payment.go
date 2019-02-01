@@ -1,9 +1,9 @@
 package build
 
 import (
-	"github.com/stellar/go/amount"
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/xdr"
+	"github.com/lomocoin/stellar-go/amount"
+	"github.com/lomocoin/stellar-go/support/errors"
+	"github.com/lomocoin/stellar-go/xdr"
 )
 
 // Payment groups the creation of a new PaymentBuilder with a call to Mutate.

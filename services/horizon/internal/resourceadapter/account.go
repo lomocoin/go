@@ -4,11 +4,11 @@ import (
 	"context"
 	"fmt"
 
-	. "github.com/stellar/go/protocols/horizon"
-	"github.com/stellar/go/services/horizon/internal/db2/core"
-	"github.com/stellar/go/services/horizon/internal/db2/history"
-	"github.com/stellar/go/services/horizon/internal/httpx"
-	"github.com/stellar/go/support/render/hal"
+	. "github.com/lomocoin/stellar-go/protocols/horizon"
+	"github.com/lomocoin/stellar-go/services/horizon/internal/db2/core"
+	"github.com/lomocoin/stellar-go/services/horizon/internal/db2/history"
+	"github.com/lomocoin/stellar-go/services/horizon/internal/httpx"
+	"github.com/lomocoin/stellar-go/support/render/hal"
 )
 
 // PopulateAccount fills out the resource's fields

@@ -3,8 +3,8 @@ package database
 import (
 	"time"
 
-	"github.com/stellar/go/support/db"
-	"github.com/stellar/go/support/errors"
+	"github.com/lomocoin/stellar-go/support/db"
+	"github.com/lomocoin/stellar-go/support/errors"
 )
 
 type Chain string

@@ -8,9 +8,9 @@ import (
 
 	sq "github.com/Masterminds/squirrel"
 	"github.com/guregu/null"
-	"github.com/stellar/go/services/horizon/internal/utf8"
-	"github.com/stellar/go/strkey"
-	"github.com/stellar/go/xdr"
+	"github.com/lomocoin/stellar-go/services/horizon/internal/utf8"
+	"github.com/lomocoin/stellar-go/strkey"
+	"github.com/lomocoin/stellar-go/xdr"
 )
 
 // Base64Signatures returns a slice of strings where each element is a base64

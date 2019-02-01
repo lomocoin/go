@@ -6,10 +6,10 @@ import (
 	"encoding/json"
 
 	"github.com/guregu/null"
-	"github.com/stellar/go/services/horizon/internal/ledger"
-	"github.com/stellar/go/services/horizon/internal/operationfeestats"
-	"github.com/stellar/go/support/db"
-	"github.com/stellar/go/support/render/hal"
+	"github.com/lomocoin/stellar-go/services/horizon/internal/ledger"
+	"github.com/lomocoin/stellar-go/services/horizon/internal/operationfeestats"
+	"github.com/lomocoin/stellar-go/support/db"
+	"github.com/lomocoin/stellar-go/support/render/hal"
 )
 
 // CoreSession returns a db.Session instance pointing at the stellar core test database

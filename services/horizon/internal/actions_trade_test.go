@@ -8,12 +8,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/stellar/go/protocols/horizon"
-	"github.com/stellar/go/services/horizon/internal/db2/history"
-	. "github.com/stellar/go/services/horizon/internal/db2/history"
-	. "github.com/stellar/go/services/horizon/internal/test/trades"
-	"github.com/stellar/go/support/render/hal"
-	"github.com/stellar/go/xdr"
+	"github.com/lomocoin/stellar-go/protocols/horizon"
+	"github.com/lomocoin/stellar-go/services/horizon/internal/db2/history"
+	. "github.com/lomocoin/stellar-go/services/horizon/internal/db2/history"
+	. "github.com/lomocoin/stellar-go/services/horizon/internal/test/trades"
+	"github.com/lomocoin/stellar-go/support/render/hal"
+	"github.com/lomocoin/stellar-go/xdr"
 )
 
 func TestTradeActions_Index(t *testing.T) {
@@ -311,7 +311,7 @@ func TestTradeActions_Aggregation(t *testing.T) {
 }
 
 func TestTradeActions_IndexRegressions(t *testing.T) {
-	t.Run("Regression:  https://github.com/stellar/go/services/horizon/internal/issues/318", func(t *testing.T) {
+	t.Run("Regression:  https://github.com/lomocoin/stellar-go/services/horizon/internal/issues/318", func(t *testing.T) {
 		ht := StartHTTPTest(t, "trades")
 		defer ht.Finish()
 
@@ -326,7 +326,7 @@ func TestTradeActions_IndexRegressions(t *testing.T) {
 		ht.Assert.Equal(404, w.Code) //This used to be 200 with length 0
 	})
 
-	t.Run("Regression for nil prices: https://github.com/stellar/go/issues/357", func(t *testing.T) {
+	t.Run("Regression for nil prices: https://github.com/lomocoin/stellar-go/issues/357", func(t *testing.T) {
 		ht := StartHTTPTest(t, "trades")
 		defer ht.Finish()
 
@@ -341,7 +341,7 @@ func TestTradeActions_IndexRegressions(t *testing.T) {
 
 // TestTradeActions_AggregationOrdering checks that open/close aggregation
 // fields are correct for multiple trades that occur in the same ledger
-// https://github.com/stellar/go/issues/215
+// https://github.com/lomocoin/stellar-go/issues/215
 func TestTradeActions_AggregationOrdering(t *testing.T) {
 
 	ht := StartHTTPTest(t, "base")

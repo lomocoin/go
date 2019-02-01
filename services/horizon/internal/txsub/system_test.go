@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/stellar/go/build"
-	"github.com/stellar/go/services/horizon/internal/test"
-	"github.com/stellar/go/services/horizon/internal/txsub/sequence"
+	"github.com/lomocoin/stellar-go/build"
+	"github.com/lomocoin/stellar-go/services/horizon/internal/test"
+	"github.com/lomocoin/stellar-go/services/horizon/internal/txsub/sequence"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/suite"
 )

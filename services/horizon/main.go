@@ -9,11 +9,11 @@ import (
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	"github.com/stellar/go/network"
-	horizon "github.com/stellar/go/services/horizon/internal"
-	"github.com/stellar/go/services/horizon/internal/db2/schema"
-	apkg "github.com/stellar/go/support/app"
-	"github.com/stellar/go/support/log"
+	"github.com/lomocoin/stellar-go/network"
+	horizon "github.com/lomocoin/stellar-go/services/horizon/internal"
+	"github.com/lomocoin/stellar-go/services/horizon/internal/db2/schema"
+	apkg "github.com/lomocoin/stellar-go/support/app"
+	"github.com/lomocoin/stellar-go/support/log"
 	"github.com/throttled/throttled"
 )
 

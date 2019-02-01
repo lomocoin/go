@@ -1,7 +1,7 @@
 package common
 
 import (
-	"github.com/stellar/go/support/log"
+	"github.com/lomocoin/stellar-go/support/log"
 )
 
 const StellarAmountPrecision = 7

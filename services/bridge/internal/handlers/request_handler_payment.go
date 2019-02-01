@@ -8,16 +8,16 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/stellar/go/address"
-	b "github.com/stellar/go/build"
-	"github.com/stellar/go/clients/horizon"
-	"github.com/stellar/go/protocols/compliance"
-	"github.com/stellar/go/protocols/federation"
-	shared "github.com/stellar/go/services/internal/bridge-compliance-shared"
-	"github.com/stellar/go/services/internal/bridge-compliance-shared/http/helpers"
-	"github.com/stellar/go/services/internal/bridge-compliance-shared/protocols/bridge"
-	callback "github.com/stellar/go/services/internal/bridge-compliance-shared/protocols/compliance"
-	"github.com/stellar/go/xdr"
+	"github.com/lomocoin/stellar-go/address"
+	b "github.com/lomocoin/stellar-go/build"
+	"github.com/lomocoin/stellar-go/clients/horizon"
+	"github.com/lomocoin/stellar-go/protocols/compliance"
+	"github.com/lomocoin/stellar-go/protocols/federation"
+	shared "github.com/lomocoin/stellar-go/services/internal/bridge-compliance-shared"
+	"github.com/lomocoin/stellar-go/services/internal/bridge-compliance-shared/http/helpers"
+	"github.com/lomocoin/stellar-go/services/internal/bridge-compliance-shared/protocols/bridge"
+	callback "github.com/lomocoin/stellar-go/services/internal/bridge-compliance-shared/protocols/compliance"
+	"github.com/lomocoin/stellar-go/xdr"
 )
 
 // Payment implements /payment endpoint

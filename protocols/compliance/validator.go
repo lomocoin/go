@@ -2,7 +2,7 @@ package compliance
 
 import (
 	"github.com/asaskevich/govalidator"
-	"github.com/stellar/go/address"
+	"github.com/lomocoin/stellar-go/address"
 )
 
 func init() {

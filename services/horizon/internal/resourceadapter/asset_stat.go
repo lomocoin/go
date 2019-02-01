@@ -3,12 +3,12 @@ package resourceadapter
 import (
 	"context"
 
-	"github.com/stellar/go/amount"
-	. "github.com/stellar/go/protocols/horizon"
-	"github.com/stellar/go/services/horizon/internal/db2/assets"
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/support/render/hal"
-	"github.com/stellar/go/xdr"
+	"github.com/lomocoin/stellar-go/amount"
+	. "github.com/lomocoin/stellar-go/protocols/horizon"
+	"github.com/lomocoin/stellar-go/services/horizon/internal/db2/assets"
+	"github.com/lomocoin/stellar-go/support/errors"
+	"github.com/lomocoin/stellar-go/support/render/hal"
+	"github.com/lomocoin/stellar-go/xdr"
 )
 
 // PopulateAssetStat fills out the details

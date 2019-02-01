@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/rcrowley/go-metrics"
-	"github.com/stellar/go/services/horizon/internal/logmetrics"
+	"github.com/lomocoin/stellar-go/services/horizon/internal/logmetrics"
 )
 
 func initMetrics(app *App) {

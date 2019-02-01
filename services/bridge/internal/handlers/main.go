@@ -1,14 +1,14 @@
 package handlers
 
 import (
-	"github.com/stellar/go/clients/federation"
-	"github.com/stellar/go/clients/horizon"
-	"github.com/stellar/go/clients/stellartoml"
-	"github.com/stellar/go/services/bridge/internal/config"
-	"github.com/stellar/go/services/bridge/internal/db"
-	"github.com/stellar/go/services/bridge/internal/listener"
-	"github.com/stellar/go/services/bridge/internal/submitter"
-	"github.com/stellar/go/support/http"
+	"github.com/lomocoin/stellar-go/clients/federation"
+	"github.com/lomocoin/stellar-go/clients/horizon"
+	"github.com/lomocoin/stellar-go/clients/stellartoml"
+	"github.com/lomocoin/stellar-go/services/bridge/internal/config"
+	"github.com/lomocoin/stellar-go/services/bridge/internal/db"
+	"github.com/lomocoin/stellar-go/services/bridge/internal/listener"
+	"github.com/lomocoin/stellar-go/services/bridge/internal/submitter"
+	"github.com/lomocoin/stellar-go/support/http"
 )
 
 // RequestHandler implements bridge server request handlers

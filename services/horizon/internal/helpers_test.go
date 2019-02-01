@@ -7,9 +7,9 @@ import (
 	"log"
 	"time"
 
-	"github.com/stellar/go/network"
-	"github.com/stellar/go/services/horizon/internal/test"
-	supportLog "github.com/stellar/go/support/log"
+	"github.com/lomocoin/stellar-go/network"
+	"github.com/lomocoin/stellar-go/services/horizon/internal/test"
+	supportLog "github.com/lomocoin/stellar-go/support/log"
 	"github.com/throttled/throttled"
 )
 

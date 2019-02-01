@@ -8,11 +8,11 @@ import (
 	"encoding/base64"
 	"encoding/json"
 
-	"github.com/stellar/go/protocols/horizon/base"
-	"github.com/stellar/go/strkey"
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/support/render/hal"
-	"github.com/stellar/go/xdr"
+	"github.com/lomocoin/stellar-go/protocols/horizon/base"
+	"github.com/lomocoin/stellar-go/strkey"
+	"github.com/lomocoin/stellar-go/support/errors"
+	"github.com/lomocoin/stellar-go/support/render/hal"
+	"github.com/lomocoin/stellar-go/xdr"
 )
 
 // KeyTypeNames maps from strkey version bytes into json string values to use in
